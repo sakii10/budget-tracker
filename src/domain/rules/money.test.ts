@@ -49,3 +49,23 @@ describe('centsToAmountString', () => {
     expect(centsToAmountString(1200)).toBe('12.00');
   });
 });
+
+describe('centsToAmountString', () => {
+  it('formats cents with two decimals', () => {
+    expect(centsToAmountString(4510)).toBe('45.10');
+    expect(centsToAmountString(5)).toBe('0.05');
+    expect(centsToAmountString(1200)).toBe('12.00');
+  });
+
+  it('handles values that are tricky for floating point', () => {
+    expect(centsToAmountString(29)).toBe('0.29');
+    expect(centsToAmountString(1005)).toBe('10.05');
+    expect(centsToAmountString(100000000)).toBe('1000000.00');
+  });
+
+  it('round-trips with parseAmountToCents', () => {
+    for (const cents of [0, 1, 29, 1005, 4510, 99999999, 100000000]) {
+      expect(parseAmountToCents(centsToAmountString(cents))).toBe(cents);
+    }
+  });
+});
