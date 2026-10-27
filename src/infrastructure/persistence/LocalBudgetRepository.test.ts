@@ -76,7 +76,7 @@ function createRepository(options: RepositoryOptions = {}) {
   const loadSeed = vi.fn(() => Promise.resolve(createSeed()));
   const repository = new LocalBudgetRepository(
     loadSeed,
-    instantNetwork,
+    options.network ?? instantNetwork
   );
   return { repository, storage, loadSeed };
 }
