@@ -1,0 +1,62 @@
+{
+  "categories": [
+    { "id": 1, "name": "Groceries", "color": "#2E7D32" },
+    { "id": 2, "name": "Rent", "color": "#1565C0" },
+    { "id": 3, "name": "Salary", "color": "#6A1B9A" },
+    { "id": 4, "name": "Transport", "color": "#EF6C00" },
+    { "id": 5, "name": "Entertainment", "color": "#C62828" },
+    { "id": 6, "name": "Health", "color": "#00838F" },
+    { "id": 7, "name": "Utilities", "color": "#5D4037" },
+    { "id": 8, "name": "Freelance", "color": "#AD1457" },
+    { "id": 9, "name": "Gifts", "color": "#F9A825" }
+  ],
+  "transactions": [
+    { "id": 1, "type": "income", "amount": "1850.50", "date": "2026-08-01", "description": "August salary", "category_id": 3 },
+    { "id": 2, "type": "expense", "amount": "650.00", "date": "2026-08-02", "description": "August rent", "category_id": 2 },
+    { "id": 3, "type": "expense", "amount": "41.20", "date": "2026-08-04", "description": "Supermarket", "category_id": 1 },
+    { "id": 4, "type": "expense", "amount": "28.00", "date": "2026-08-07", "description": "Pharmacy", "category_id": 6 },
+    { "id": 5, "type": "expense", "amount": "73.40", "date": "2026-08-15", "description": "Groceries", "category_id": 1 },
+    { "id": 6, "type": "income", "amount": "320.00", "date": "2026-08-18", "description": "Website project", "category_id": 8 },
+    { "id": 7, "type": "expense", "amount": "95.60", "date": "2026-08-22", "description": "Concert tickets", "category_id": 5 },
+    { "id": 8, "type": "expense", "amount": "47.25", "date": "2026-08-25", "description": "Fuel", "category_id": 4 },
+    { "id": 9, "type": "expense", "amount": "66.80", "date": "2026-08-31", "description": "Weekend groceries", "category_id": 1 },
+
+    { "id": 10, "type": "income", "amount": "1850.50", "date": "2026-09-01", "description": "September salary", "category_id": 3 },
+    { "id": 11, "type": "expense", "amount": "650.00", "date": "2026-09-02", "description": "September rent", "category_id": 2 },
+    { "id": 12, "type": "expense", "amount": "58.90", "date": "2026-09-05", "description": "Groceries", "category_id": 1 },
+    { "id": 13, "type": "expense", "amount": "35.00", "date": "2026-09-08", "description": "Monthly bus pass", "category_id": 4 },
+    { "id": 14, "type": "expense", "amount": "120.00", "date": "2026-09-11", "description": "Dentist", "category_id": 6 },
+    { "id": 15, "type": "expense", "amount": "89.90", "date": "2026-09-14", "description": "Electricity bill", "category_id": 7 },
+    { "id": 16, "type": "income", "amount": "450.00", "date": "2026-09-16", "description": "Freelance design job", "category_id": 8 },
+    { "id": 17, "type": "expense", "amount": "77.15", "date": "2026-09-19", "description": "Weekly shopping", "category_id": 1 },
+    { "id": 18, "type": "expense", "amount": "54.30", "date": "2026-09-20", "description": "Cinema and dinner", "category_id": 5 },
+    { "id": 19, "type": "expense", "amount": "39.99", "date": "2026-09-24", "description": null, "category_id": 5 },
+    { "id": 20, "type": "expense", "amount": "64.50", "date": "2026-09-30", "description": "Month-end groceries", "category_id": 1 },
+
+    { "id": 21, "type": "income", "amount": "1850.50", "date": "2026-10-01", "description": "October salary", "category_id": 3 },
+    { "id": 22, "type": "expense", "amount": "650.00", "date": "2026-10-02", "description": "October rent", "category_id": 2 },
+    { "id": 23, "type": "expense", "amount": "45.10", "date": "2026-10-03", "description": "Weekly shopping", "category_id": 1 },
+    { "id": 24, "type": "expense", "amount": "62.35", "date": "2026-10-10", "description": "Market groceries", "category_id": 1 },
+    { "id": 25, "type": "expense", "amount": "35.00", "date": "2026-10-12", "description": "Monthly bus pass", "category_id": 4 },
+    { "id": 26, "type": "expense", "amount": "108.20", "date": "2026-10-17", "description": null, "category_id": 1 },
+    { "id": 27, "type": "expense", "amount": "12.50", "date": "2026-10-19", "description": "Taxi", "category_id": 4 },
+    { "id": 28, "type": "income", "amount": "0.10", "date": "2026-10-20", "description": "Cashback", "category_id": 3 },
+    { "id": 29, "type": "income", "amount": "0.20", "date": "2026-10-21", "description": "Refund", "category_id": 3 }
+  ],
+  "budgets": [
+    { "month": "2026-08", "category_id": 1, "amount": "200.00" },
+    { "month": "2026-08", "category_id": 4, "amount": "60.00" },
+    { "month": "2026-08", "category_id": 5, "amount": "80.00" },
+    { "month": "2026-08", "category_id": 6, "amount": "50.00" },
+
+    { "month": "2026-09", "category_id": 1, "amount": "250.00" },
+    { "month": "2026-09", "category_id": 4, "amount": "40.00" },
+    { "month": "2026-09", "category_id": 5, "amount": "100.00" },
+    { "month": "2026-09", "category_id": 6, "amount": "100.00" },
+    { "month": "2026-09", "category_id": 7, "amount": "100.00" },
+
+    { "month": "2026-10", "category_id": 1, "amount": "200.00" },
+    { "month": "2026-10", "category_id": 4, "amount": "80.00" },
+    { "month": "2026-10", "category_id": 5, "amount": "50.00" }
+  ]
+}
