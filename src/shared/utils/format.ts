@@ -1,4 +1,3 @@
-/** 125000 -> "1,250.00 €", -500 -> "-5.00 €" */
 export function formatEuro(cents: number): string {
   const sign = cents < 0 ? '-' : '';
   const abs = Math.abs(cents);
